@@ -6,9 +6,10 @@
   left: 0;
 
   &__container {
-    @extend %container;
     display: flex;
     align-items: center;
+
+    @extend %container;
     gap: $gap;
   }
 }
