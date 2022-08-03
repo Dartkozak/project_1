@@ -422,7 +422,9 @@ a {
 }
 
 .header-navbar {
-  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 .header-navbar__btn {
   display: none;
