@@ -19,7 +19,6 @@
     @include md-min {
       font-size: 1.25rem;
     }
-
     @include md {
       font-size: 1.125rem;
     }
@@ -39,8 +38,10 @@
 
   &__image {
     transition: transform 0.5s;
+
     background-position: center;
     background-size: cover;
+
     @include abs-position;
   }
 
