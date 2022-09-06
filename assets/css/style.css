@@ -339,8 +339,7 @@ html {
 }
 
 body {
-  letter-spacing: 0.1em;
-  color: #2d3651;
+  color: #637588;
   background-color: #ffffff;
 }
 
@@ -520,6 +519,9 @@ h2 {
       -ms-transform: rotate(-135deg);
           transform: rotate(-135deg);
 }
+.header-navbar__item {
+  margin: 20px 10px;
+}
 .header-navbar__link {
   display: block;
   -webkit-transition: background-color 0.5s;
@@ -577,6 +579,7 @@ h2 {
   z-index: 1;
   margin: 0;
   font-size: 1.25rem;
+  letter-spacing: 0.1em;
   position: absolute;
   top: 0;
   right: 0;
@@ -810,6 +813,7 @@ h2 {
 }
 .form .btn--primary:hover, .form .btn--primary:focus {
   background-color: #d66926;
+  border-color: #ffffff;
 }
 
 h3 {
@@ -1142,9 +1146,6 @@ h3 {
     list-style: none;
     -webkit-box-shadow: -3px 3px 20px -10px black;
             box-shadow: -3px 3px 20px -10px black;
-  }
-  .header-navbar__item {
-    margin: 20px 10px;
   }
   .header-navbar__link {
     padding: 20px 10px;
